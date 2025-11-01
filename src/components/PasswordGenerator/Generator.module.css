@@ -1,0 +1,24 @@
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.full {
+  grid-column: 1 / -1;
+}
+
+.output {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.output input {
+  flex: 1;
+}
+.inline {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

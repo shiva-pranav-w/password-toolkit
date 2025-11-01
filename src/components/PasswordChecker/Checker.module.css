@@ -1,0 +1,18 @@
+.inputRow {
+  margin-bottom: 12px;
+}
+
+.suggestions {
+  margin-top: 8px;
+  padding-left: 18px;
+}
+.suggestions li {
+  margin: 4px 0;
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #22c55e;
+  font-weight: 600;
+}
