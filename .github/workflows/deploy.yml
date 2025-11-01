@@ -1,5 +1,9 @@
 name: Deploy to GitHub Pages
 
+# Request write access to repository contents so the GITHUB_TOKEN can push to gh-pages
+permissions:
+  contents: write
+
 on:
   push:
     branches:
@@ -11,6 +15,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # ensure the runner keeps the credentials so the deployment action can push
+          persist-credentials: true
+          fetch-depth: 0
 
       - name: Use Node.js
         uses: actions/setup-node@v4
