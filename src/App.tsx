@@ -1,4 +1,5 @@
-import { useState } from 'react'
+// No React APIs are required directly in this component (JSX transform handles it).
+// Removed unused `useState` import to satisfy TypeScript strict checks.
 import Generator from "./components/PasswordGenerator/Generator"
 import Checker from "./components/PasswordChecker/Checker"
 import './styles/globals.css'
