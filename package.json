@@ -5,7 +5,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/password-toolkit.git"
+    "url": "https://github.com/shiva-pranav-w/password-toolkit.git"
   },
   "scripts": {
     "dev": "vite",
